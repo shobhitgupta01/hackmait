@@ -9,7 +9,7 @@ class course(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField()
     created_date = models.DateTimeField(
-            default=timezone.now)
+            blank=True, null=True)
     published_date = models.DateTimeField(
             blank=True, null=True)
 

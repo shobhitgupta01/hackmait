@@ -5,7 +5,7 @@ from django.utils import timezone
 
 
 class course(models.Model):
-    organisation = models.TextField()
+    organisation = models.CharField(max_length=200)
     title = models.CharField(max_length=200)
     description = models.TextField()
     created_date = models.DateTimeField(

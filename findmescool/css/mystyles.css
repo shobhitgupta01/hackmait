@@ -1,0 +1,59 @@
+body
+{
+    top:70px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-inverse {
+  background:transparent;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a {
+  background: transparent;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background: transparent;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background: transparent;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a {
+  background: transparent;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a:hover {
+  background: transparent;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background: transparent;
+  color: #ffffff;
+}
+
+.jumbotron{
+    background-image: url(../images/background.jpg);
+        
+    
+    min-height: 500px;
+    background-size: cover;
+    background-attachment:scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:floralwhite;
+    text-align: center;
+    
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#searchbox{
+
+padding: 20px;
+min-height: 500px;
+    
+}
